@@ -7,9 +7,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-.navbar-collapse{
-    justify-content: flex-end !important;
-  }
+.navbar-collapse {
+  justify-content: flex-end !important;
+}
 
 .section {
   width: 100%;
@@ -32,12 +32,18 @@
 .image-section {
   float: right;
   width: 40%;
-    }
+
+}
+
+.image-section legend {
+ text-align: center;
+
+  }
 .image-section img {
   width: 120%;
   height: auto;
   border-radius: 25px;
-  margin-top: 30%;
+  margin-top: 50%;
 }
 
 .content-section .title {
@@ -89,8 +95,6 @@
 .content-section .social i:hover {
   color: #3d3d3d;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .container {
