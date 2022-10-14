@@ -27,7 +27,8 @@
   text-shadow: 2px 2px #000000;
 }
 
-button {
+button,
+.button-link {
   width: 200px;
   padding: 15px 0;
   margin: 20px 10px;
@@ -40,6 +41,12 @@ button {
   position: relative;
   overflow: hidden;
   text-shadow: 1px 1px #000000;
+  display: inline-block;
+}
+
+.button-link:hover {
+  text-decoration: none;
+  color: white;
 }
 
 span {
@@ -54,7 +61,8 @@ span {
   transition: 0.5s;
 }
 
-button:hover span {
+button:hover span,
+.button-link:hover span {
   width: 100%;
 }
 button:hover {
